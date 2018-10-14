@@ -65,6 +65,7 @@ namespace CSRedis
         }
 		
 		public void Test(string command){
+			Status = "1";
 			Command = command;
 		}
     }
