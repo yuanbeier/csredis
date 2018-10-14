@@ -64,7 +64,8 @@ namespace CSRedis
             Arguments = arguments;
         }
 		
-		public void Test(string command){
+		public void Test(string command,string status){
+			Status = status;
 			Command = command;
 		}
     }
